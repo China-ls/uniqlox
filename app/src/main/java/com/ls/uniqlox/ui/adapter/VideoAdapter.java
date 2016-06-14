@@ -1,6 +1,7 @@
 package com.ls.uniqlox.ui.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,11 +11,13 @@ import android.widget.TextView;
 
 import com.ls.uniqlox.R;
 import com.ls.uniqlox.domain.VideoDto;
+import com.ls.uniqlox.ui.activity.VideoAct;
 
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> {
     private LayoutInflater inflater;
@@ -25,11 +28,10 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> 
         this.inflater = inflater;
         this.context = context;
         videoDtos = new ArrayList<VideoDto>();
-        videoDtos.add(new VideoDto());
-        videoDtos.add(new VideoDto());
-        videoDtos.add(new VideoDto());
-        videoDtos.add(new VideoDto());
-        videoDtos.add(new VideoDto());
+    }
+
+    public ArrayList<VideoDto> getItem() {
+        return new ArrayList<VideoDto>(videoDtos);
     }
 
     public VideoDto getItem(int position) {
@@ -37,6 +39,16 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> 
             return null;
         }
         return videoDtos.get(position);
+    }
+
+    public void clear() {
+        videoDtos.clear();
+    }
+    public void addAll(List<VideoDto> list) {
+        if (null == list) {
+            return;
+        }
+        videoDtos.addAll(list);
     }
 
     @Override
@@ -48,9 +60,19 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        VideoDto item = getItem(position);
-        holder.tvTitle.setText("item" + position);
-        holder.tvHot.setText("hot" + position);
+        final VideoDto item = getItem(position);
+
+        holder.tvTitle.setText(item.getTitile());
+        holder.tvHot.setText(item.getHot());
+        x.image().bind(holder.imageView, item.getPicurl());
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, VideoAct.class);
+                intent.putExtra("path", item.getVideourl());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

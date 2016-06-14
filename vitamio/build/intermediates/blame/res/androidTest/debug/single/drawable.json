@@ -4,12 +4,16 @@
         "source": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
     },
     {
-        "merged": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
-        "source": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+        "merged": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
     },
     {
         "merged": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
         "source": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
     },
     {
         "merged": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
@@ -22,5 +26,13 @@
     {
         "merged": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
         "source": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+    },
+    {
+        "merged": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+    },
+    {
+        "merged": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
     }
 ]

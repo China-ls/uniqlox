@@ -6,10 +6,16 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 public class MyClass {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
+        System.out.println(URLEncoder.encode("中国" , "UTF-8"));
+    }
+
+    static void test1() {
         FileInputStream fis = null;
         InputStreamReader isr = null;
         BufferedReader bd = null;
@@ -29,7 +35,7 @@ public class MyClass {
                         "pull",
                         "/system/app/" + line,
                         "/home/hx/dev/huawei/"
-                        );
+                );
                 builder.redirectErrorStream(true);
                 Process process = builder.start();
                 InputStream is = process.getInputStream();

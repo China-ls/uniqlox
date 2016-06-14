@@ -6,5 +6,9 @@
     {
         "merged": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
         "source": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
     }
 ]

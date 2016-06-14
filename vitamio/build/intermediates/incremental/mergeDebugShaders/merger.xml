@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/hx/dev/workspace/android_studio/uniqlox/vitamio/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/hx/dev/workspace/android_studio/uniqlox/vitamio/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/xinhong/Workspaces/android_studio/uniqlox/vitamio/src/debug/shaders"/></dataSet></merger>

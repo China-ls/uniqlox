@@ -8,10 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- 使视图直接显示出来，避免出现白屏 -->
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
         <!-- 使ActionBar浮动 -->
-        <item name="android:windowActionBarOverlay">true</item>
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -19,10 +19,23 @@
         <item name="windowNoTitle">true</item>
 
         <!-- 使视图直接显示出来，避免出现白屏 -->
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
         <!-- 使ActionBar浮动 -->
-        <item name="android:windowActionBarOverlay">true</item>
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- 使视图直接显示出来，避免出现白屏 -->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!-- 使ActionBar浮动 -->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
