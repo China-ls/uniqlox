@@ -1,0 +1,1 @@
+include ':app', ':xutils', ':viewpagerindicator', ':viewpagerindicater_sample', ':justjava', "vitamio"

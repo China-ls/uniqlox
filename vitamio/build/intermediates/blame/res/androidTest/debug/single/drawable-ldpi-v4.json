@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/home/hx/dev/workspace/android_studio/uniqlox/vitamio/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/home/hx/dev/workspace/android_studio/VitamioBundle-5.0.1/vitamio/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_launcher.png"
+    }
+]
